@@ -1,0 +1,11 @@
+.footer-app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    min-height: 15vh;
+    background-color: black;
+    color: white;
+    font-size: 13pt;
+    font-weight: bold;
+}

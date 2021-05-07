@@ -1,0 +1,35 @@
+.main-app {
+    background: linear-gradient(rgba(94, 169, 255, 0.89), rgba(94, 169, 255, 0.89) 100%), url("./../../resources/universe.jpg");
+    min-height: 130vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40pt;
+    color: white;
+    font-weight: bold;
+}
+
+.div-result {
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 5px black;
+}
+
+.result {
+    font-size: 100pt;
+}
+
+.result-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-regua {
+    width: 40%;
+}
