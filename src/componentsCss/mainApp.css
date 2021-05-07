@@ -1,12 +1,14 @@
 .main-app {
-    background: linear-gradient(rgba(94, 169, 255, 0.89), rgba(94, 169, 255, 0.89) 100%), url("./../../resources/universe.jpg");
+    background: linear-gradient(#ffd166f6, #ffd166e7 100%), url("./../../resources/universe.jpg") repeat 100% fixed;
     min-height: 130vh;
+    min-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 40pt;
     color: white;
     font-weight: bold;
+    text-align: center;
 }
 
 .div-result {
@@ -32,4 +34,27 @@
 
 .result-regua {
     width: 40%;
+}
+
+@media (max-width: 760px) {
+    .main-app {
+        font-size: 20pt;
+        min-height: 90vh;
+    }
+
+    .text-result {
+        width: 90%;
+    }
+
+    .result {
+        font-size: 50pt;
+    }
+
+    .result-img {
+        min-width: 100%;
+    }
+
+    .result-regua {
+        min-width: 70%;
+    }
 }

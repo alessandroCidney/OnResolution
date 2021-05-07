@@ -39,3 +39,13 @@
     font-size: 17pt;
     font-weight: bolder;
 }
+
+@media (max-width: 760px) {
+    .header-app {
+        justify-content: center;
+    }
+
+    .header-items {
+        display: none;
+    }
+}

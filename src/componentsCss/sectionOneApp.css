@@ -1,0 +1,12 @@
+.section-one-app {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    min-height: 120vh;
+    background-color: #ffffff;
+}
+
+.image-laptop {
+    width: 50%;
+}

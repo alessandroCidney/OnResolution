@@ -19,7 +19,7 @@ export default class MainApp extends React.Component {
                 </div>
 
                 <div className="text-result">
-                    A resolução da sua tela vale:
+                    A resolução da sua tela vale
                 </div>
 
                 <div className="result">
